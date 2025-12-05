@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-open-source\n"
-"PO-Revision-Date: 2024-11-28 16:57\n"
+"PO-Revision-Date: 2025-12-05 09:23\n"
 "Last-Translator: TAO Translation Team <translation@tao.lu>\n"
 "MIME-Version: 1.0\n"
 "Language: sk\n"
@@ -21,74 +21,74 @@ msgstr ""
 "Language-Team: Slovak\n"
 
 msgid "%s classes and instances have been updated"
-msgstr ""
+msgstr "Triedy a inštancie boli aktualizované %s"
 
 msgid "Access control"
-msgstr ""
+msgstr "Riadenie prístupu"
 
 msgid "Access Permissions for"
-msgstr ""
+msgstr "Prístupové oprávnenia pre"
 
 msgid "Actions"
-msgstr ""
+msgstr "Akcie"
 
 msgid "Add role(s)"
-msgstr ""
+msgstr "Pridať rolu(y)"
 
 msgid "Add user(s)"
-msgstr ""
+msgstr "Pridať používateľa(ov)"
 
 msgid "Error"
-msgstr ""
+msgstr "Chyba"
 
 msgid "grant"
-msgstr ""
+msgstr "grant"
 
 msgid "Name"
-msgstr ""
+msgstr "Meno"
 
 msgid "Permissions saved"
-msgstr ""
+msgstr "Povolenia boli uložené"
 
 msgid "read"
-msgstr ""
+msgstr "čítať"
 
 msgid "Recursive"
-msgstr ""
+msgstr "Rekurzívny"
 
 msgid "Remove"
-msgstr ""
+msgstr "Odstrániť"
 
 msgid "role"
-msgstr ""
+msgstr "rola"
 
 msgid "Roles"
-msgstr ""
+msgstr "Roly"
 
 msgid "Save"
-msgstr ""
+msgstr "Uložiť"
 
 msgid "something went wrong during taoDacSimple uninstallation\n"
-msgstr ""
+msgstr "Počas odinštalovania taoDacSimple sa niečo pokazilo\n"
 
 msgid "taoDacSimple extension correctly uninstalled"
-msgstr ""
+msgstr "Rozšírenie taoDacSimple bolo správne odinštalované"
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "Unable to process your request"
-msgstr ""
+msgstr "Vašu žiadosť sa nepodarilo spracovať"
 
 msgid "user"
-msgstr ""
+msgstr "používateľ"
 
 msgid "Users"
-msgstr ""
+msgstr "Používatelia"
 
 msgid "write"
-msgstr ""
+msgstr "písať"
 
 msgid "You must have one role or user that have the manage permission on this element."
-msgstr ""
+msgstr "Musíte mať rolu alebo používateľa, ktorý má oprávnenie spravovať tento prvok."
 
