@@ -4,7 +4,7 @@ msgstr ""
 "PO-Revision-Date: 2025-12-05 09:23\n"
 "Last-Translator: TAO Translation Team <translation@tao.lu>\n"
 "MIME-Version: 1.0\n"
-"Language: sk\n"
+"Language: ar\n"
 "sourceLanguage: en-US\n"
 "targetLanguage: en-US\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,83 +12,83 @@ msgstr ""
 "X-Poedit-Basepath: ../../\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
-"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Crowdin-Project: tao-open-source\n"
 "X-Crowdin-Project-ID: 590867\n"
-"X-Crowdin-Language: sk\n"
+"X-Crowdin-Language: ar\n"
 "X-Crowdin-File: /[oat-sa.extension-tao-dac-simple] develop/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 511\n"
-"Language-Team: Slovak\n"
+"Language-Team: Arabic\n"
 
 msgid "%s classes and instances have been updated"
-msgstr "Triedy a inštancie boli aktualizované %s"
+msgstr "تم تحديث الأقسام والحالات %s"
 
 msgid "Access control"
-msgstr "Riadenie prístupu"
+msgstr "التحكم في الولوج"
 
 msgid "Access Permissions for"
-msgstr "Prístupové oprávnenia pre"
+msgstr "رُخَصُ الْوُلُوج ل"
 
 msgid "Actions"
-msgstr "Akcie"
+msgstr "إجراءات"
 
 msgid "Add role(s)"
-msgstr "Pridať rolu(y)"
+msgstr "أضف دور (أدوار)"
 
 msgid "Add user(s)"
-msgstr "Pridať používateľa(ov)"
+msgstr "أضف مستخدم (مستخدمين)"
 
 msgid "Error"
-msgstr "Chyba"
+msgstr "خطأ"
 
 msgid "grant"
-msgstr "grant"
+msgstr "منح"
 
 msgid "Name"
-msgstr "Meno"
+msgstr "الاسم"
 
 msgid "Permissions saved"
-msgstr "Povolenia boli uložené"
+msgstr "الرخص محفوظة"
 
 msgid "read"
-msgstr "čítať"
+msgstr "قراءة"
 
 msgid "Recursive"
-msgstr "Rekurzívny"
+msgstr "متكرر"
 
 msgid "Remove"
-msgstr "Odstrániť"
+msgstr "إزالة"
 
 msgid "role"
-msgstr "rola"
+msgstr "دور"
 
 msgid "Roles"
-msgstr "Roly"
+msgstr "أدوار"
 
 msgid "Save"
-msgstr "Uložiť"
+msgstr "حفظ"
 
 msgid "something went wrong during taoDacSimple uninstallation\n"
-msgstr "Počas odinštalovania taoDacSimple sa niečo pokazilo\n"
+msgstr "حدث خطأ ما خلال إلغاء تثبيت taoDacSimple\n"
 
 msgid "taoDacSimple extension correctly uninstalled"
-msgstr "Rozšírenie taoDacSimple bolo správne odinštalované"
+msgstr "تم إلغاء تثبيت ملحق taoDacSimple بشكل صحيح"
 
 msgid "Type"
-msgstr "Typ"
+msgstr "نوع"
 
 msgid "Unable to process your request"
-msgstr "Vašu žiadosť sa nepodarilo spracovať"
+msgstr "غير قادر على معالجة طلبك"
 
 msgid "user"
-msgstr "používateľ"
+msgstr "مستعمل"
 
 msgid "Users"
-msgstr "Používatelia"
+msgstr "المستخدمون"
 
 msgid "write"
-msgstr "písať"
+msgstr "اكتب"
 
 msgid "You must have one role or user that have the manage permission on this element."
-msgstr "Musíte mať rolu alebo používateľa, ktorý má oprávnenie spravovať tento prvok."
+msgstr "يجب أن يكون لديك دور واحد أو مستخدم لديه رخصة إدارة هذا العنصر."
 
