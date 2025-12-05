@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-open-source\n"
-"PO-Revision-Date: 2024-12-13 15:13\n"
+"PO-Revision-Date: 2025-12-05 09:24\n"
 "Last-Translator: TAO Translation Team <translation@tao.lu>\n"
 "MIME-Version: 1.0\n"
 "Language: hu\n"
@@ -21,74 +21,74 @@ msgstr ""
 "Language-Team: Hungarian\n"
 
 msgid "%s classes and instances have been updated"
-msgstr ""
+msgstr "%s osztályok és példányok frissítve"
 
 msgid "Access control"
-msgstr ""
+msgstr "Hozzáférés-vezérlés"
 
 msgid "Access Permissions for"
-msgstr ""
+msgstr "Hozzáférési engedélyek a következőhöz:"
 
 msgid "Actions"
-msgstr ""
+msgstr "Műveletek"
 
 msgid "Add role(s)"
-msgstr ""
+msgstr "Szerepkör(ök) hozzáadása"
 
 msgid "Add user(s)"
-msgstr ""
+msgstr "Felhasználó(k) hozzáadása"
 
 msgid "Error"
-msgstr ""
+msgstr "Hiba"
 
 msgid "grant"
-msgstr ""
+msgstr "támogatás"
 
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 msgid "Permissions saved"
-msgstr ""
+msgstr "Engedélyek mentve"
 
 msgid "read"
-msgstr ""
+msgstr "olvas"
 
 msgid "Recursive"
-msgstr ""
+msgstr "Rekurzív"
 
 msgid "Remove"
-msgstr ""
+msgstr "Eltávolítás"
 
 msgid "role"
-msgstr ""
+msgstr "szerep"
 
 msgid "Roles"
-msgstr ""
+msgstr "Szerepkörök"
 
 msgid "Save"
-msgstr ""
+msgstr "Megtakarítás"
 
 msgid "something went wrong during taoDacSimple uninstallation\n"
-msgstr ""
+msgstr "Valami hiba történt a taoDacSimple eltávolítása során\n"
 
 msgid "taoDacSimple extension correctly uninstalled"
-msgstr ""
+msgstr "A taoDacSimple bővítmény sikeresen eltávolításra került"
 
 msgid "Type"
-msgstr ""
+msgstr "Típus"
 
 msgid "Unable to process your request"
-msgstr ""
+msgstr "Nem sikerült feldolgozni a kérését"
 
 msgid "user"
-msgstr ""
+msgstr "felhasználó"
 
 msgid "Users"
-msgstr ""
+msgstr "Felhasználók"
 
 msgid "write"
-msgstr ""
+msgstr "ír"
 
 msgid "You must have one role or user that have the manage permission on this element."
-msgstr ""
+msgstr "Rendelkeznie kell egy olyan szerepkörrel vagy felhasználóval, amelynek kezelési jogosultsága van ehhez az elemhez."
 
