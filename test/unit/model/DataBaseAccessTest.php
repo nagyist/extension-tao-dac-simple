@@ -28,7 +28,6 @@ use oat\generis\test\ServiceManagerMockTrait;
 use PHPUnit\Framework\TestCase;
 use oat\oatbox\event\EventManager;
 use oat\taoDacSimple\model\DataBaseAccess;
-use oat\taoDacSimple\model\event\DacAddedEvent;
 use PDO;
 use PDOStatement;
 use PHPUnit\Framework\MockObject\MockObject;
@@ -93,9 +92,7 @@ class DataBaseAccessTest extends TestCase
     {
         $userIds = ['a', 'b', 'c'];
 
-        $statementMock = $this->getMockBuilder(PDOStatementForTest::class)
-            ->onlyMethods(['fetchAll'])
-            ->getMock();
+        $statementMock = $this->createMock(PDOStatement::class);
 
         $statementMock->expects($this->once())
             ->method('fetchAll')
@@ -143,9 +140,7 @@ class DataBaseAccessTest extends TestCase
             ['fixture']
         ];
 
-        $statementMock = $this->getMockBuilder(PDOStatementForTest::class)
-            ->onlyMethods(['fetchAll'])
-            ->getMock();
+        $statementMock = $this->createMock(PDOStatement::class);
 
         $statementMock->expects($this->once())
             ->method('fetchAll')
@@ -195,9 +190,7 @@ class DataBaseAccessTest extends TestCase
             3 => ['create', 'delete']
         ];
 
-        $statementMock = $this->getMockBuilder(PDOStatementForTest::class)
-            ->onlyMethods(['fetchAll'])
-            ->getMock();
+        $statementMock = $this->createMock(PDOStatement::class);
 
         $statementMock->expects($this->once())
             ->method('fetchAll')
@@ -223,17 +216,3 @@ class DataBaseAccessTest extends TestCase
         return $resourceMock;
     }
 }
-
-/**
- * Class needed to override methods form PDOStatement needed for this test.
- * Method open() in PDOStatement has UnionType return and therefore cant be mocked by PHPUnit in version lower
- * than 9 (currently 8.5 is installed)
- */
-// @codingStandardsIgnoreStart
-class PDOStatementForTest extends PDOStatement
-{
-    public function fetchAll($mode = PDO::FETCH_BOTH, $fetch_argument = null, ...$args)
-    {
-    }
-}
-// @codingStandardsIgnoreEnd
